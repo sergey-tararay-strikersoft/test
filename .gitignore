@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CrashReporter/.vs/CrashReporter/v15/ipch
+/CrashReporter/.vs/CrashReporter/v15
+/CrashReporter/Debug
+/CrashReporter/Release
+/CrashReporter/CrashReporter/Debug
+/CrashReporter/CrashReporter/Release
