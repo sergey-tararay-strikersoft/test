@@ -8,3 +8,16 @@
 /CrashReporter/Release
 /CrashReporter/CrashReporter/Debug
 /CrashReporter/CrashReporter/Release
+/3rdParty/libpqxx/proj/.vs/libpqxx/v15
+/3rdParty/libpqxx/win32/.vs/vc-libpqxx/v15
+/ODB/.vs/ODB/v15
+/ODB/Debug
+/ODB/ODB/Debug
+/3rdParty/libodb-2.4.0/.vs/libodb-vc12/v15
+/3rdParty/libodb-2.4.0/odb/Debug
+/3rdParty/libodb-pgsql-2.4.0/.vs/libodb-pgsql-vc12/v15
+/3rdParty/libodb-pgsql-2.4.0/odb/pgsql/Debug
+/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CompilerIdC/Debug
+/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CompilerIdCXX/Debug
+/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/Debug/VCTargetsPath.tlog
+/3rdParty/libpqxx/proj/Win32/Debug

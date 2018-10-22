@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeDetermineCompileFeatures.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-CXX-FeatureTests.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Internal/FeatureTesting.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.12/Templates/CPackConfig.cmake.in
+D:/dev/work/sandbox/test/3rdParty/libpqxx/CMakeLists.txt
+D:/dev/work/sandbox/test/3rdParty/libpqxx/cmake/config.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/cmake/libpqxx-config.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CMakeCCompiler.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CMakeRCCompiler.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/3.12.2/CMakeSystem.cmake
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/feature_tests.cxx
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/include/pqxx/config.h.in

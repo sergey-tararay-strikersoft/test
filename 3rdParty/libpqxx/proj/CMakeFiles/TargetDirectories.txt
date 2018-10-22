@@ -1,0 +1,16 @@
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/PACKAGE.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/INSTALL.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/ALL_BUILD.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/ZERO_CHECK.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/pqxx_shared.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/pqxx_static.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/PACKAGE.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/INSTALL.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/include/CMakeFiles/PACKAGE.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/include/CMakeFiles/INSTALL.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/CMakeFiles/PACKAGE.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/CMakeFiles/runner.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/CMakeFiles/INSTALL.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/unit/CMakeFiles/unit_runner.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/unit/CMakeFiles/PACKAGE.dir
+D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/unit/CMakeFiles/INSTALL.dir

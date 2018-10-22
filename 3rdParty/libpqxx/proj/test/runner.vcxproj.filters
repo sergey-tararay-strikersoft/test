@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\runner.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test00.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test01.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test02.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test04.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test07.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test10.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test11.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test12.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test13.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test14.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test15.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test16.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test17.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test18.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test20.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test21.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test23.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test26.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test29.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test30.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test31.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test33.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test34.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test35.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test36.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test37.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test39.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test46.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test48.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test49.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test50.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test51.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test52.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test53.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test54.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test55.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test56.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test57.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test58.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test59.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test60.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test61.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test62.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test63.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test64.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test65.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test66.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test67.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test69.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test70.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test71.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test72.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test73.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test74.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test75.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test76.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test77.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test78.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test79.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test82.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test83.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test84.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test86.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test87.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test88.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test89.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test90.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test92.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test93.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\test94.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4E628720-26B1-3B0C-BE78-29EC8AF1A077}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

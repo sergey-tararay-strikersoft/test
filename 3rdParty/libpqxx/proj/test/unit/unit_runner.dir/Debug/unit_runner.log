@@ -1,0 +1,35 @@
+﻿  Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/test/unit/CMakeLists.txt
+  CMake does not need to re-run because D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/test/unit/CMakeFiles/generate.stamp is up-to-date.
+  runner.cxx
+  test_array.cxx
+  test_binarystring.cxx
+  test_cancel_query.cxx
+  test_error_verbosity.cxx
+  test_errorhandler.cxx
+  test_escape.cxx
+  test_exceptions.cxx
+  test_float.cxx
+  test_notification.cxx
+  test_parameterized.cxx
+  test_pipeline.cxx
+  test_prepared_statement.cxx
+  test_read_transaction.cxx
+  test_result_iteration.cxx
+  test_result_slicing.cxx
+  test_row.cxx
+  test_simultaneous_transactions.cxx
+  test_sql_cursor.cxx
+  test_stateless_cursor.cxx
+  Generating Code...
+  Compiling...
+  test_string_conversion.cxx
+  test_subtransaction.cxx
+  test_test_helpers.cxx
+  test_thread_safety_model.cxx
+  test_transaction_base.cxx
+  test_transactor.cxx
+  Generating Code...
+test_string_conversion.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static void __cdecl pqxx::enum_traits<enum EnumA>::from_string(char const * const,enum EnumA &)" (__imp_?from_string@?$enum_traits@W4EnumA@@@pqxx@@SAXQBDAAW4EnumA@@@Z) referenced in function "void __cdecl pqxx::from_string<enum EnumA>(char const * const,enum EnumA &)" (??$from_string@W4EnumA@@@pqxx@@YAXQBDAAW4EnumA@@@Z)
+test_string_conversion.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pqxx::enum_traits<enum EnumA>::to_string(enum EnumA)" (__imp_?to_string@?$enum_traits@W4EnumA@@@pqxx@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4EnumA@@@Z) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pqxx::to_string<enum EnumA>(enum EnumA const &)" (??$to_string@W4EnumA@@@pqxx@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABW4EnumA@@@Z)
+test_string_conversion.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pqxx::enum_traits<enum EnumB>::to_string(enum EnumB)" (__imp_?to_string@?$enum_traits@W4EnumB@@@pqxx@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4EnumB@@@Z) referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl pqxx::to_string<enum EnumB>(enum EnumB const &)" (??$to_string@W4EnumB@@@pqxx@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABW4EnumB@@@Z)
+D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\test\unit\Debug\unit_runner.exe : fatal error LNK1120: 3 unresolved externals

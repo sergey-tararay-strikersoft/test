@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{7d5ab677-9296-4661-8d38-1ffb3cc50196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BL">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{626f2b14-0ef4-4b4e-9fd2-682931570a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DAL\Objects">
+      <UniqueIdentifier>{3cb60914-2fcf-4d26-b557-0a2bc645a90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAL\Objects\_Generated">
+      <UniqueIdentifier>{e085e587-84cb-4aa9-86c8-74cc23cd8e2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="ODB.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ODBDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DbModels-odb.hxx">
+      <Filter>DAL\Objects\_Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductManager.h">
+      <Filter>BL</Filter>
+    </ClInclude>
+    <ClInclude Include="DbContext.h">
+      <Filter>DAL\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ODB.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ODBDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="DbModels-odb.cxx">
+      <Filter>DAL\Objects\_Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="DbContext.cpp">
+      <Filter>DAL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductManager.cpp">
+      <Filter>BL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ODB.rc">
+      <Filter>UI\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ODB.rc2">
+      <Filter>UI\Resource Files</Filter>
+    </None>
+    <None Include="DbModels-odb.ixx">
+      <Filter>DAL\Objects\_Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ODB.ico">
+      <Filter>UI\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DbModels.h">
+      <Filter>DAL\Objects</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

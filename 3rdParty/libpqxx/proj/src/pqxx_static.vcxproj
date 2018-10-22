@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7C806DC-19F8-3B88-A7C9-E7C9AA9AB659}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pqxx_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pqxx_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pqxx_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pqxx_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pqxx_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\work\sandbox\test\3rdParty\libpqxx\include;D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\include;C:\Program Files (x86)\PostgreSQL\10\include;C:\Program Files (x86)\PostgreSQL\10\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/work/sandbox/test/3rdParty/libpqxx -BD:/dev/work/sandbox/test/3rdParty/libpqxx/proj --check-stamp-file D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPostgreSQL.cmake;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/work/sandbox/test/3rdParty/libpqxx -BD:/dev/work/sandbox/test/3rdParty/libpqxx/proj --check-stamp-file D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPostgreSQL.cmake;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/work/sandbox/test/3rdParty/libpqxx -BD:/dev/work/sandbox/test/3rdParty/libpqxx/proj --check-stamp-file D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPostgreSQL.cmake;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/work/sandbox/test/3rdParty/libpqxx -BD:/dev/work/sandbox/test/3rdParty/libpqxx/proj --check-stamp-file D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPostgreSQL.cmake;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;D:\dev\work\sandbox\test\3rdParty\libpqxx\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\array.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\binarystring.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\connection.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\connection_base.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\cursor.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\dbtransaction.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\errorhandler.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\except.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\field.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\largeobject.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\nontransaction.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\notification.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\pipeline.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\prepared_statement.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\result.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\robusttransaction.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\row.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\statement_parameters.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\strconv.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\subtransaction.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\tablereader.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\tablestream.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\tablewriter.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\transaction.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\transaction_base.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\util.cxx" />
+    <ClCompile Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\src\version.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\ZERO_CHECK.vcxproj">
+      <Project>{09DC0E98-7A92-3FE1-897B-59D2F7762E90}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\pqxx\array" />
+    <None Include="..\..\include\pqxx\basic_connection" />
+    <None Include="..\..\include\pqxx\binarystring" />
+    <None Include="..\..\include\pqxx\config.h.in" />
+    <None Include="..\..\include\pqxx\connection" />
+    <None Include="..\..\include\pqxx\connectionpolicy" />
+    <None Include="..\..\include\pqxx\connection_base" />
+    <None Include="..\..\include\pqxx\cursor" />
+    <None Include="..\..\include\pqxx\dbtransaction" />
+    <None Include="..\..\include\pqxx\errorhandler" />
+    <None Include="..\..\include\pqxx\except" />
+    <None Include="..\..\include\pqxx\field" />
+    <None Include="..\..\include\pqxx\isolation" />
+    <None Include="..\..\include\pqxx\largeobject" />
+    <None Include="..\..\include\pqxx\nontransaction" />
+    <None Include="..\..\include\pqxx\notification" />
+    <None Include="..\..\include\pqxx\pipeline" />
+    <None Include="..\..\include\pqxx\pqxx" />
+    <None Include="..\..\include\pqxx\prepared_statement" />
+    <None Include="..\..\include\pqxx\result" />
+    <None Include="..\..\include\pqxx\robusttransaction" />
+    <None Include="..\..\include\pqxx\row" />
+    <None Include="..\..\include\pqxx\strconv" />
+    <None Include="..\..\include\pqxx\subtransaction" />
+    <None Include="..\..\include\pqxx\tablereader" />
+    <None Include="..\..\include\pqxx\tablestream" />
+    <None Include="..\..\include\pqxx\tablewriter" />
+    <None Include="..\..\include\pqxx\transaction" />
+    <None Include="..\..\include\pqxx\transaction_base" />
+    <None Include="..\..\include\pqxx\transactor" />
+    <None Include="..\..\include\pqxx\types" />
+    <None Include="..\..\include\pqxx\util" />
+    <None Include="..\..\include\pqxx\version" />
+    <None Include="..\..\include\pqxx\version.hxx.template" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\pqxx\array.hxx" />
+    <ClInclude Include="..\..\include\pqxx\basic_connection.hxx" />
+    <ClInclude Include="..\..\include\pqxx\binarystring.hxx" />
+    <ClInclude Include="..\..\include\pqxx\compiler-internal-post.hxx" />
+    <ClInclude Include="..\..\include\pqxx\compiler-internal-pre.hxx" />
+    <ClInclude Include="..\..\include\pqxx\compiler-internal.hxx" />
+    <ClInclude Include="..\..\include\pqxx\compiler-public.hxx" />
+    <ClInclude Include="..\..\include\pqxx\connection.hxx" />
+    <ClInclude Include="..\..\include\pqxx\connectionpolicy.hxx" />
+    <ClInclude Include="..\..\include\pqxx\connection_base.hxx" />
+    <ClInclude Include="..\..\include\pqxx\cursor.hxx" />
+    <ClInclude Include="..\..\include\pqxx\dbtransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\errorhandler.hxx" />
+    <ClInclude Include="..\..\include\pqxx\except.hxx" />
+    <ClInclude Include="..\..\include\pqxx\field.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\callgate.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-dbtransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-errorhandler.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-largeobject.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-notification_receiver.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-parameterized_invocation.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-pipeline.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-prepare-invocation.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-reactivation_avoidance_exemption.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-sql_cursor.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\connection-transaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\errorhandler-connection.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\icursorstream-icursor_iterator.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\icursor_iterator-icursorstream.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\result-connection.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\result-creation.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\result-row.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\result-sql_cursor.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\transaction-subtransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\transaction-tablereader.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\transaction-tablewriter.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\gates\transaction-transactionfocus.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\libpq-forward.hxx" />
+    <ClInclude Include="..\..\include\pqxx\internal\statement_parameters.hxx" />
+    <ClInclude Include="..\..\include\pqxx\isolation.hxx" />
+    <ClInclude Include="..\..\include\pqxx\largeobject.hxx" />
+    <ClInclude Include="..\..\include\pqxx\nontransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\notification.hxx" />
+    <ClInclude Include="..\..\include\pqxx\pipeline.hxx" />
+    <ClInclude Include="..\..\include\pqxx\prepared_statement.hxx" />
+    <ClInclude Include="..\..\include\pqxx\result.hxx" />
+    <ClInclude Include="..\..\include\pqxx\result_iterator.hxx" />
+    <ClInclude Include="..\..\include\pqxx\robusttransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\row.hxx" />
+    <ClInclude Include="..\..\include\pqxx\strconv.hxx" />
+    <ClInclude Include="..\..\include\pqxx\subtransaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\tablereader.hxx" />
+    <ClInclude Include="..\..\include\pqxx\tablestream.hxx" />
+    <ClInclude Include="..\..\include\pqxx\tablewriter.hxx" />
+    <ClInclude Include="..\..\include\pqxx\transaction.hxx" />
+    <ClInclude Include="..\..\include\pqxx\transaction_base.hxx" />
+    <ClInclude Include="..\..\include\pqxx\transactor.hxx" />
+    <ClInclude Include="..\..\include\pqxx\types.hxx" />
+    <ClInclude Include="..\..\include\pqxx\util.hxx" />
+    <ClInclude Include="..\..\include\pqxx\version.hxx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

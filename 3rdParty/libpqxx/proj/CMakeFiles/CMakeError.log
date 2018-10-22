@@ -1,0 +1,491 @@
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_baa79.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:33.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_baa79.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_baa79.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_baa79.dir\Debug\cmTC_baa79.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_baa79.dir\Debug\cmTC_baa79.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_baa79.dir\Debug\\" /Fd"cmTC_baa79.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_baa79.dir\Debug\\" /Fd"cmTC_baa79.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+  HAVE_DLFCN_H.c
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_dlfcn_h.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_baa79.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_baa79.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_baa79.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_dlfcn_h.c(2): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_baa79.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_86892.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:39.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86892.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_86892.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_86892.dir\Debug\cmTC_86892.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_86892.dir\Debug\cmTC_86892.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86892.dir\Debug\\" /Fd"cmTC_86892.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86892.dir\Debug\\" /Fd"cmTC_86892.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  HAVE_STRINGS_H.c
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_strings_h.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86892.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86892.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86892.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_strings_h.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86892.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.59
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/select.h exist failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ad971.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:41.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_ad971.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ad971.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ad971.dir\Debug\cmTC_ad971.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ad971.dir\Debug\cmTC_ad971.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad971.dir\Debug\\" /Fd"cmTC_ad971.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad971.dir\Debug\\" /Fd"cmTC_ad971.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c
+  HAVE_SYS_SELECT_H.c
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_sys_select_h.c(2): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_ad971.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_ad971.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_ad971.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_sys_select_h.c(2): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_ad971.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.56
+
+Source:
+/* */
+#include <sys/select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9d20e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:43.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_9d20e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9d20e.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9d20e.dir\Debug\cmTC_9d20e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9d20e.dir\Debug\cmTC_9d20e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d20e.dir\Debug\\" /Fd"cmTC_9d20e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d20e.dir\Debug\\" /Fd"cmTC_9d20e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+  HAVE_SYS_TIME_H.c
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_sys_time_h.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_9d20e.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_9d20e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_9d20e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_sys_time_h.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_9d20e.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.54
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_86cbd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:45.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86cbd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_86cbd.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_86cbd.dir\Debug\cmTC_86cbd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_86cbd.dir\Debug\cmTC_86cbd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86cbd.dir\Debug\\" /Fd"cmTC_86cbd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86cbd.dir\Debug\\" /Fd"cmTC_86cbd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+  HAVE_UNISTD_H.c
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_unistd_h.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86cbd.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86cbd.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86cbd.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\checkincludefiles\have_unistd_h.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_86cbd.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.58
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if the function poll exists failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8f0b3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:46.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8f0b3.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8f0b3.dir\Debug\cmTC_8f0b3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8f0b3.dir\Debug\cmTC_8f0b3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f0b3.dir\Debug\\" /Fd"cmTC_8f0b3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f0b3.dir\Debug\\" /Fd"cmTC_8f0b3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\cmTC_8f0b3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp/Debug/cmTC_8f0b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp/Debug/cmTC_8f0b3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8f0b3.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _poll referenced in function _main [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj]
+D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\cmTC_8f0b3.exe : fatal error LNK1120: 1 unresolved externals [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _poll referenced in function _main [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj]
+  D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\cmTC_8f0b3.exe : fatal error LNK1120: 1 unresolved externals [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8f0b3.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Performing C++ SOURCE FILE Test PQXX_HAVE_OPTIONAL failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8443f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:48.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8443f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8443f.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8443f.dir\Debug\cmTC_8443f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8443f.dir\Debug\cmTC_8443f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_OPTIONAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_8443f.dir\Debug\\" /Fd"cmTC_8443f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_OPTIONAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_8443f.dir\Debug\\" /Fd"cmTC_8443f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\optional(15): fatal error C1189: #error:  class template optional is only available with C++17. [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8443f.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8443f.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8443f.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\optional(15): fatal error C1189: #error:  class template optional is only available with C++17. [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8443f.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.84
+
+Source file was:
+
+  #include <optional>
+  int main() { std::optional<int> o; }
+
+Performing C++ SOURCE FILE Test PQXX_HAVE_EXP_OPTIONAL failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8e486.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:49.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8e486.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8e486.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8e486.dir\Debug\cmTC_8e486.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8e486.dir\Debug\cmTC_8e486.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_EXP_OPTIONAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_8e486.dir\Debug\\" /Fd"cmTC_8e486.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_EXP_OPTIONAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_8e486.dir\Debug\\" /Fd"cmTC_8e486.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): fatal error C1083: Cannot open include file: 'experimental/optional': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8e486.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8e486.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8e486.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): fatal error C1083: Cannot open include file: 'experimental/optional': No such file or directory [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_8e486.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source file was:
+
+  #include <experimental/optional>
+  int main() { std::experimental::optional<int> o; }
+
+Performing C++ SOURCE FILE Test PQXX_HAVE_GCC_CONST failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e7b7a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:50.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e7b7a.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e7b7a.dir\Debug\cmTC_e7b7a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e7b7a.dir\Debug\cmTC_e7b7a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_CONST /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_e7b7a.dir\Debug\\" /Fd"cmTC_e7b7a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_CONST /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_e7b7a.dir\Debug\\" /Fd"cmTC_e7b7a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: 'const' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: 'const' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_e7b7a.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.58
+
+Source file was:
+
+    int foo() __attribute__ ((const));
+    int main() { return 0; }
+  
+Performing C++ SOURCE FILE Test PQXX_HAVE_GCC_PURE failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_fb9a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:51.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fb9a2.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fb9a2.dir\Debug\cmTC_fb9a2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fb9a2.dir\Debug\cmTC_fb9a2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_PURE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_fb9a2.dir\Debug\\" /Fd"cmTC_fb9a2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_PURE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_fb9a2.dir\Debug\\" /Fd"cmTC_fb9a2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_fb9a2.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.56
+
+Source file was:
+
+    int foo() __attribute__ ((pure));
+    int main() { return 0; }
+  
+Performing C++ SOURCE FILE Test PQXX_HAVE_GCC_VISIBILITY failed with the following output:
+Change Dir: D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_43430.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20-Oct-18 00:59:52.
+Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_43430.dir\Debug\".
+  Creating directory "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_43430.dir\Debug\cmTC_43430.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_43430.dir\Debug\cmTC_43430.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_VISIBILITY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_43430.dir\Debug\\" /Fd"cmTC_43430.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_VISIBILITY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_43430.dir\Debug\\" /Fd"cmTC_43430.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2143: syntax error: missing ')' before '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: ')' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2440: 'initializing': cannot convert from 'const char [8]' to 'int' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): note: There is no context in which this conversion is possible
+Done Building Project "D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C3646: '__attribute__': unknown override specifier [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2143: syntax error: missing ')' before '(' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2059: syntax error: ')' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+  d:\dev\work\sandbox\test\3rdparty\libpqxx\proj\cmakefiles\cmaketmp\src.cxx(2): error C2440: 'initializing': cannot convert from 'const char [8]' to 'int' [D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\CMakeTmp\cmTC_43430.vcxproj]
+
+    0 Warning(s)
+    6 Error(s)
+
+Time Elapsed 00:00:00.58
+
+Source file was:
+
+    int foo() __attribute__ ((visibility("default")));
+    int main() { return 0; }
+  

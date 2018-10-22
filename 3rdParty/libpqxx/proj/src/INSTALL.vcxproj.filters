@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\CMakeFiles\76e980629baaa69e2adbd8b81856e435\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D2CB410F-BAD1-3E84-912E-A7B3667256C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

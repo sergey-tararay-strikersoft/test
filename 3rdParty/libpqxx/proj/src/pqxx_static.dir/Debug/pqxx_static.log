@@ -1,0 +1,33 @@
+﻿  Building Custom Rule D:/dev/work/sandbox/test/3rdParty/libpqxx/src/CMakeLists.txt
+  CMake does not need to re-run because D:/dev/work/sandbox/test/3rdParty/libpqxx/proj/src/CMakeFiles/generate.stamp is up-to-date.
+  array.cxx
+  binarystring.cxx
+  connection.cxx
+  connection_base.cxx
+  cursor.cxx
+  dbtransaction.cxx
+  errorhandler.cxx
+  except.cxx
+  field.cxx
+  largeobject.cxx
+  nontransaction.cxx
+  notification.cxx
+  pipeline.cxx
+  prepared_statement.cxx
+  result.cxx
+  robusttransaction.cxx
+  row.cxx
+  statement_parameters.cxx
+  strconv.cxx
+  subtransaction.cxx
+  Generating Code...
+  Compiling...
+  tablereader.cxx
+  tablestream.cxx
+  tablewriter.cxx
+  transaction.cxx
+  transaction_base.cxx
+  util.cxx
+  version.cxx
+  Generating Code...
+  pqxx_static.vcxproj -> D:\dev\work\sandbox\test\3rdParty\libpqxx\proj\src\Debug\pqxx.lib
